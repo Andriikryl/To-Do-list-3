@@ -68,3 +68,7 @@ form button{
     padding: 20px;
     background-color: green;
 }
+
+.fa-trash, .fa-check{
+    pointer-events: none;
+}
