@@ -72,3 +72,17 @@ form button{
 .fa-trash, .fa-check{
     pointer-events: none;
 }
+
+
+.completed{
+    text-decoration: line-through;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+select{
+    
+}
