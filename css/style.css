@@ -32,4 +32,39 @@ form button {
   color: #d88771;
   background-color: white;
   cursor: pointer;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn {
+  background: red;
+  padding: 20px;
+}
+
+.complete-btn {
+  padding: 20px;
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */
