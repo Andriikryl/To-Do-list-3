@@ -84,5 +84,14 @@ form button{
 }
 
 select{
-    
+    outline: none;
+    border: none;
+    // appearance: none;
+    padding: 19px;
+    cursor: pointer;
+}
+
+.select{
+    margin: 1rem;position: relative;
+    overflow: hidden;
 }
